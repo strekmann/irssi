@@ -272,6 +272,7 @@ aliases = {
   97 = "WINDOW GOTO 97";
   98 = "WINDOW GOTO 98";
   99 = "WINDOW GOTO 99";
+  usercount = "/sbar awl_0 add -before awl_0 -alignment left usercount";
 };
 
 statusbar = {
