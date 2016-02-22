@@ -404,6 +404,7 @@ statusbar = {
 
       items = {
         #           barstart = "--------------";
+        awaybar = { alignment = "right"; };
         erotin = {
           items = { barstart = "asdasd--------------"; };
           priority = "100";
