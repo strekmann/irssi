@@ -28,8 +28,8 @@ sub awaybar {
                  '%' => '%%',);
         $away_reason =~ s/$_/$r{$_}/g for (keys %r);
 
-        #my $format = $theme->format_expand("{sb_awaybar Olet AWAY. Syy: $away_reason}");
-        my $format = "{sb_awaybar $away_reason}.";
+        #my $format = $theme->format_expand("{sb_awaybar $away_reason}");
+        my $format = "{sb Away: $away_reason}";
 
         $item->{min_size} = $item->{max_size} = length($away_reason);
         $item->default_handler($get_size_only, $format, 0, 1);
